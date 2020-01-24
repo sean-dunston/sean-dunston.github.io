@@ -5,10 +5,9 @@ image: images/star-wars-destiny-card.png
 title: Deck Builder
 permalink: projects/swd
 # All dates must be YYYY-MM-DD format!
-date: 2017-03-10
+date: 2017-04-30
 labels:
-  - Lisp
-  - GitHub
+  - Java
 summary: A deck builder for Star Wars Destiny that I made for AP computer science principles.
 ---
 
