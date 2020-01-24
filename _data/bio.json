@@ -18,7 +18,7 @@
       {
         "network": "github",
         "username": "sean-dunston",
-        "url": "http://github.com/changeme"
+        "url": "https://sean-dunston.github.io/"
       },
       {
         "network": "linkedin",
@@ -39,6 +39,11 @@
       ]
     },
     {
+      "name": "Robotics",
+      "keywords": [
+      ]
+    },
+    {
       "name": "Artificial Intelligence",
       "keywords": [
       ]
@@ -46,7 +51,7 @@
   ],
   "skills": [
     {
-      "name": "Languages and Frameworks",
+      "name": "Java",
       "level": "",
       "keywords": [
         "C",
@@ -59,11 +64,9 @@
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "MacOS",
+        "Windows",
         "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Andriod"
       ]
     }
   ],
@@ -81,23 +84,23 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "Cotti Foods Corperation",
+      "position": "Team member",
       "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "startDate": "2017-05-17",
+      "endDate": "2019-05-20",
+      "summary": "Worked a variety of positions at Wendy's Wapio",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Focus on multiple tasks at a time",
+        "Fast paced enviroment"
       ]
     },
     {
       "company": "UH Information Technology Services",
       "position": "Help Desk Consultant",
       "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
+      "startDate": "2019-08-20",
+      "endDate": "Present",
       "summary": "",
       "highlights": [
         "Troubleshoot software, hardware and networking issues over the phone",
@@ -134,16 +137,16 @@
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
+      "title": "CTE Honors",
       "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "awarder": "Mililani High School",
+      "summary": "Complete a 3 year program in a Career and Technical Education pathway with a minimum of a 3.0 GPA"
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Second place",
+      "date": "2017",
+      "awarder": "Skills USA Internetworking competition",
+      "summary": "I placed second in the 2017 Skills USA internetworking competition help anually"
     }
   ],
   "references": [
