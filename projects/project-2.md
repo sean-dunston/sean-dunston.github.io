@@ -1,25 +1,40 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
-title: Vacay
-permalink: projects/vacay
+image: images/vex-worlds.png
+title: VEX Robotics Code
+permalink: projects/vex-code
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-15
+date: 2017-04-20
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  - C
+  - Robotics
+summary: The code that I wrote for the 2017 VEX world robotics championship
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+I started programing for my robotics team in my sophomore year of high school, at that time all of my programs were fairly unreliable as they basically consisted of go it a distance at a set power and stop when you get there.  In a perfect world with a perfect robot this would have been fine.  As it turns out, we don't live in a perfect world and a high schooler is not capable of building a perfect robot.
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+By my senior year of high school, I had taken a formal programing class and was more familiar with techniques I could use to in robot C to improve my accuracy.  The main thing that I had learned to do (not directly) was to create acceleration code.  Instead of going at a set speed to my location, I would accelerate from 0 and decelerate to 0 power over the couse of the movement, this help to reduce the jolting of going from 0 power to a high power.
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
+While there was much more complicated code, the main concept can be seen in this simple code to make the robot move a set distance forward.
 
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
- 
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+```c
+void forward(int distance)
+{
+	avgDistance = 0;
+	SensorValue(Right_Drive_Encoder) = 0;
+	SensorValue(Left_Drive_Encoder) = 0;
+	time10[T1] = 0;
+	while (avgDistance < distance)
+	{
+		avgDistance = (abs(SensorValue(Left_Drive_Encoder)) + abs(SensorValue(Right_Drive_Encoder))) / 2;
+		int accel = time10[T1] * 3;
+		int dccel = distance - avgDistance / 2;
+		if (dccel < accel)
+			drive(dccel);
+		else
+			drive(accel);
+	}
+	drive(0);
+}
+```
