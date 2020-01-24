@@ -2,16 +2,16 @@
 layout: project
 type: project
 image: images/flappy-bird.jpg
-title: Micromouse
+title: Flappy Bird
 permalink: projects/flappy-bird
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2018-11-29
 labels:
   - Java
+Summary: In ICS 111 my group re-created the game flappy bird.
 ---
-<div class="ui small rounded images">
-  <img class="ui image" src="../images/flappy-bird.png">
-</div>
+
+<img class="ui medium right floated rounded image" src="../images/flappy-bird.png">
 
 As a ICS 111 project my group re-created the classic game 'Flappy bird.'  The game had all the features of the original, flapping... well, that it, flapping.  In all seriouness however, we created a menu for the game that kept track of the current high score in a txt file and allowed the user to play again and again until their brain rots or they get bored (rated E for everyone).  
 
