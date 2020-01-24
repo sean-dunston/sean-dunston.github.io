@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/flappy-bird.png
+image: images/flappy-bird.jpg
 title: Flappy Bird
 permalink: projects/flappy-bird
 # All dates must be YYYY-MM-DD format!
