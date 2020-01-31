@@ -11,6 +11,8 @@ labels:
   - Git Hub
 ---
 
+<img class="ui medium right floated rounded image" src="https://imgur.com/a/o2GIwAY">
+
 ## Things to do
 
 When asking a question is good practice to consider, the person that you except to answer your question.  Things that might seem okay to do when asking a friend or classmate, might not be appropriate to ask a stranger on the internet as conveyed concisely by Eric Raymond in his article “How to ask questions the smart way.”  Once you get past the fact that Mr. Raymond neckbeard fedora personality, it is a great source for understanding how questions need to be phrased so that a ‘hacker’ might help you.  Some of the more useful tips provided include how to ask questions on code:
