@@ -47,4 +47,6 @@ function foo() {
 var result = foo(); // It always ends up being `undefined`.
 ```
 
+(Source) https://stackoverflow.com/questions/14220321/how-do-i-return-the-response-from-an-asynchronous-call
+
 Not only does this person provide the steps that they took to solve the error, they also provided the least amount of code that they believe is necessary to understand the situation.  This gives the reader a sense that the asker has already done all that they can to find a solution before asking the question.  In general, it is not hard to ask smart questions, all it takes is the willingness to put in at least the work that you are asking of others.
