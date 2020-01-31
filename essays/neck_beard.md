@@ -11,7 +11,7 @@ labels:
   - Git Hub
 ---
 
-<img class="ui medium right floated rounded image" src="https://imgur.com/a/o2GIwAY">
+<img class="ui medium right floated rounded image" src="https://i.imgur.com/jZRmKG4.jpg">
 
 ## Things to do
 
