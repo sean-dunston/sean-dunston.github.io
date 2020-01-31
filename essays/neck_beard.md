@@ -21,7 +21,7 @@ When asking a question is good practice to consider, the person that you except 
 
 ## Not so smart questions
 
-Following the examples laid out by in the article, an example of a not smart question found on stack overflow is as follows: “I have a c program with some functions and a unit test file to test them. How can I run the unit test file by command line on Linux?”  While this person may have done research and turned up nothing, this is not immediately obvious.  As a result it seems as though this person has done no research prior to posting their question.  As Raymond puts it, when someone reads this, whether they reply or not, they are probably thinking this person “should have Searched The Fucking Web.”
+Following the examples laid out by the article, an example of a not smart question found on stack overflow is as follows: “I have a c program with some functions and a unit test file to test them. How can I run the unit test file by command line on Linux?”  While this person may have done research and turned up nothing, this is not immediately obvious.  As a result it seems as though this person has done no research prior to posting their question.  As Raymond puts it, when someone reads this, whether they reply or not, they are probably thinking this person “should have Searched The Fucking Web.”
 
 [Source](https://stackoverflow.com/questions/59995458/how-can-i-run-a-unit-test-file-by-command-line-in-c)
 
