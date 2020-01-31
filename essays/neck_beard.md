@@ -21,7 +21,7 @@ When asking a question is good practice to consider, the person that you except 
 
 Following the examples laid out by in the article, an example of a not smart question found on stack overflow is as follows: “I have a c program with some functions and a unit test file to test them. How can I run the unit test file by command line on Linux?”  While this person may have done research and turned up nothing, this is not immediately obvious.  As a result it seems as though this person has done no research prior to posting their question.  As Raymond puts it, when someone reads this, whether they reply or not, they are probably thinking this person “should have Searched The Fucking Web.”
 
-(Source) https://stackoverflow.com/questions/59995458/how-can-i-run-a-unit-test-file-by-command-line-in-c
+[Source](https://stackoverflow.com/questions/59995458/how-can-i-run-a-unit-test-file-by-command-line-in-c)
 
 ## Smart questions
 
@@ -47,6 +47,6 @@ function foo() {
 var result = foo(); // It always ends up being `undefined`.
 ```
 
-(Source) https://stackoverflow.com/questions/14220321/how-do-i-return-the-response-from-an-asynchronous-call
+[Source](https://stackoverflow.com/questions/14220321/how-do-i-return-the-response-from-an-asynchronous-call)
 
 Not only does this person provide the steps that they took to solve the error, they also provided the least amount of code that they believe is necessary to understand the situation.  This gives the reader a sense that the asker has already done all that they can to find a solution before asking the question.  In general, it is not hard to ask smart questions, all it takes is the willingness to put in at least the work that you are asking of others.
