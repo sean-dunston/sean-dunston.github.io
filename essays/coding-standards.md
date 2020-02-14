@@ -13,7 +13,7 @@ labels:
 
 ## Coding in High School
 
-When I first started coding in high school for my VEX robotics team, I had not even heard of coding standards.  While I had some idea of what made code look nice, I tended to just do things so that I could read my code more easily.  This however did not carry over to others trying to read my code.  Now, most of the time this was not a problem, I could read my code and was the only person that needed to.  This code ended up becoming a largely uncommented and unformatted mess of non-descript function calls.
+When I first started coding in high school for my VEX robotics team, I had not even heard of coding standards.  I was more focused on learning how to code, this resulted in me simply trying to make the code look decent and moving on.  This however, did not carry over to others trying to read my code.  Now, most of the time this was not a problem, I was the only person that needed to read my code so I had no reason to make it more readable.  This code ended up becoming a largely uncommented and unformatted mess of non-descript function calls.
 
 ```c
 AutoD (-60, 60, 470, 470);						// turn left///
@@ -38,7 +38,7 @@ AutoD (-60, 60, 470, 470);						// turn left///
 	wait10Msec(50);
 ```
 
-When I did run into problems however was when trying to show my code to other people.  Although I knew exactly what everything did, when I asked one of the older students how to do something, I often found I had to spend extra time explaining what each aspect of my code did in order for them to have to context to help me.  This was not only a result of poor code formatting, but also as a result of everyone there being somewhat inexperienced.  At this time, none of us even thought of coming up with or following a pre-existing coding standard.
+When I did run into problems however, was when I had to show my code to other people.  Although I knew exactly what everything did, when I asked one of the older students how to do something, I often found I had to spend extra time explaining what each aspect of my code did in order for them to have to context to help me.  This was not only a result of poor code formatting, but also as a result of everyone there being somewhat inexperienced.  At this time, none of us even thought of coming up with or following a pre-existing coding standard.
 
 ## Poor Code in ICS 111
 
@@ -46,7 +46,7 @@ In my first coding class in University, this pattern continued, the only ‘Codi
 
 ## Introduction to Formal Coding Standards
 
-The second coding class that I took at UH was the first time that I was introduced to any formal coding standards.  In this class we were working in Java and had to use a formatter called CheckStyle admittingly, I hatted using this at first however, looking back at any of that code now, I can easily figure out what a method did due to the forced Java Doc comments.  While these were tedious to write at the time, it is very easy to go and look back at what a method does and what each of its parameters take.  Granted I still might not know what an individual line in the code does, but I can still use the method without knowing exactly how it works.
+The second coding class that I took at UH was the first time that I was introduced to any formal coding standards.  This class was a continuation of and deeper dive into Java.  In this class I had to use a formatter called CheckStyle, at the time, I hatted using it, though, looking back at any of that code now, I can easily figure out what a method did due to the forced Java Doc comments.  While these were tedious to write at the time, it is very easy to go and look back at what a method does and what each of its parameters take.  Granted I still might not know what an individual line in the code does, but I can still use the method without knowing exactly how it works.
 
 ```java
   /**
