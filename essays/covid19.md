@@ -8,6 +8,7 @@ labels:
   - Covid 19
   - College Life
 ---
+
 <img class="ui medium right floated rounded image" src="https://www.furman.edu/covid-19/wp-content/uploads/sites/177/2020/03/CoronaVirusHeader-Final-3.jpg">
 
 ## Initial Impressions
