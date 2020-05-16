@@ -7,7 +7,10 @@ permalink: projects/geostudy
 # All dates must be YYYY-MM-DD format!
 date: 2020-05-12
 labels:
-  - Java
+  - Meteor
+  - React
+  - Web Development
+  - Mongo DB
 summary: A Meteor web aplication created in collaberation with my team, helps students find new study spots.
 ---
 
